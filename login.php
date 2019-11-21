@@ -17,7 +17,7 @@ if (isset($_POST['login']) && isset($_POST['pwd'])) {
 		$_SESSION['pwd'] = $_POST['pwd'];
 
 		// on redirige notre visiteur vers une page de notre section membre
-		header ('location: page_membre.php');
+		header ('location: game.php');
 	}
 	else {
 		// Le visiteur n'a pas été reconnu comme étant membre de notre site. On utilise alors un petit javascript lui signalant ce fait
