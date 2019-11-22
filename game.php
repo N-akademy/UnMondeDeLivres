@@ -2,9 +2,9 @@
 include 'templates/header.php';
 ?>
 
-<script src="jquery.min.js"></script>
-<script src="story.js" charset="UTF-8"></script>
-		 
+<script src="js/jquery.min.js"></script>
+<script src="js/story.js" charset="UTF-8"></script>
+	
 		<script>
 			jQuery(function($){
 				$('#squiffy').squiffy();
